@@ -41,19 +41,12 @@
 package beans;
 
 import connector.MyAdminObject;
-import javax.rmi.PortableRemoteObject;
+
+import javax.ejb.CreateException;
+import javax.ejb.EJBException;
 import javax.ejb.SessionBean;
 import javax.ejb.SessionContext;
-import javax.ejb.EJBException;
-import javax.ejb.CreateException;
 import java.util.Properties;
-import java.util.Vector;
-import java.sql.*;
-import java.rmi.RemoteException;
-
-import javax.transaction.UserTransaction;
-import javax.naming.*;
-import javax.sql.*;
 
 public class MessageCheckerEJB implements SessionBean {
 

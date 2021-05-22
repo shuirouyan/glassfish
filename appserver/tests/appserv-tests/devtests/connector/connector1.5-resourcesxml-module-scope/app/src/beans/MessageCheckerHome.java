@@ -40,9 +40,9 @@
 
 package beans;
 
-import java.rmi.RemoteException;
-import javax.ejb.EJBHome;
 import javax.ejb.CreateException;
+import javax.ejb.EJBHome;
+import java.rmi.RemoteException;
 
 public interface MessageCheckerHome extends EJBHome {
     MessageChecker create() throws RemoteException, CreateException;

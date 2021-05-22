@@ -41,16 +41,6 @@
 package mdb;
 
 import connector.MyMessageListener;
-import javax.ejb.*;
-import javax.naming.*;
-import java.io.*;
-import java.rmi.RemoteException;
-import javax.servlet.*;
-import javax.servlet.http.*;
-import java.sql.*;
-import javax.sql.*;
-import javax.jms.*;
-import javax.transaction.*;
 
 
 /**

@@ -41,12 +41,10 @@
 package client;
 
 import beans.*;
-import connector.*;
-import java.io.*;
-import java.util.*;
-import javax.naming.*;
-import javax.rmi.PortableRemoteObject;
 import com.sun.ejte.ccl.reporter.SimpleReporterAdapter;
+import connector.*;
+
+import javax.rmi.PortableRemoteObject;
 
 public class Client   {
 

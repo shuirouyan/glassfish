@@ -42,7 +42,6 @@ package beans;
 
 import javax.ejb.EJBObject;
 import java.rmi.RemoteException;
-import java.sql.SQLException;
 
 public interface MessageChecker extends EJBObject {
     int getMessageCount() throws RemoteException;
